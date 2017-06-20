@@ -7,7 +7,7 @@ class Perceptron(object) :
 
     def fit(self, X, y):
         self.w_ = np.zeros(1+X.shape[1])
-        self.error = []
+        self.errors_ = []
 
         for _ in range(self.iteration):
             errors = 0
