@@ -2,8 +2,8 @@ from matplotlib import pyplot as plt
 import numpy as np
 import pandas as pd
 
-#Import the iris dataset
-dataFile = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data', header=None)
+#Import the iris_recognition dataset
+dataFile = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/iris_recognition/iris_recognition.data', header=None)
 print dataFile.tail()
 
 #assign the y and X matrixes
